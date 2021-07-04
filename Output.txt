@@ -1,0 +1,689 @@
+Hello World
+
+OPERATORS: 
+
+This is the && Logical(Boolean) Operator:
+TRUE
+
+This is the || Logical(Boolean) Operator:
+TRUE
+
+This is the Ternary(Conditional) Operator:
+10
+
+This is the Ternary(Conditional) Operator in String:
+Name is Federer
+
+Using multiple Ternary Operators to check multiple conditions:
+Value a is Positive
+
+Using Type Comparison(InstanceOf) Operator for Class:
+Cat is instance of Animal Class
+
+Using Type Comparison(InstanceOf) Operator for Interface: 
+Dog is instance of Mammal Class
+
+*****************************************
+*****************************************
+
+Using Autoboxing to convert Primitive to Wrapper Class Object:
+integer primitive type converted to Integer Class Object: 100
+Class after conversion: java.lang.Integer
+
+double primitive type converted to Double Class Object: 133.213
+Class after conversion: java.lang.Double
+
+Using Unboxing to convert Wrapper Class Object to Primitive data type: 
+Integer Class Object converted to integer primitive type : 100
+
+
+*****************************************
+*****************************************
+
+VARIOUS METHODS OF WRAPPER CLASSES: 
+
+
+1) valueOf() :
+Value of Integer Class Object: 100
+Value of Double Class Object: 10283.111
+Value of Boolean Class Object: false
+Value of Character Class Object: a
+binary number '1001' converted to integer: 9
+
+2) byteValue() / shortValue() / longValue(), etc :
+Byte value of Integer Class object: 100
+Short value of Integer Class object: 100
+Integer value of Integer Class object: 100
+Long value of Integer Class object: 100
+Float value of Integer Class object: 100.0
+Double value of Integer Class object: 100.0
+
+3) toString() :
+Integer Class object converted to String object: 100
+Double Class object converted to String object: 10283.111
+Boolean Class object converted to String object: false
+Character Class object converted to String object: a
+
+4) parseInt() / parseLong() / parseDouble() / parseFloat() :
+String '50' converted to integer data type: 50
+String '50' converted to long data type: 50
+String '50' converted to double data type: 50.0
+String '50' converted to float data type: 50.0
+
+5) CompareTo() :
+Integer I=50 compared to integer 9 : 1
+Integer I=50 compared to integer 100 : -1
+Integer I=50 compared to integer 50 : 0
+
+Boolean b1=true compared to boolean true : 0
+Boolean b1=true compared to boolean false : 1
+Boolean b2=false compared to boolean b1=true : -1
+
+6) Equals() :
+Check if I=50 equals I1=10 : false
+Check if I=50 equals I2=50 : true
+
+Check if Boolean b1=true equals b2=false : false
+Check if Boolean b1=true equals b3=true : true
+
+7) Ceil() & Floor() :
+Ceil value of d1=974.22 : 975.0
+Floor value of d1=974.22 : 974.0
+
+8) round() :
+Rounded value of d1=974.22 : 974
+
+9) min() and max() :
+Minimum of d1=974.22 and d2=966.442 : 966.442
+Mamimum of d1=974.22 and d2=966.442 : 974.22
+
+10) random() :
+Random number generated between 0.0 and 1.0 : 0.24874142728077864
+
+11) isLetter() and isDigit() for Character Class :
+Check if the character ch1='u' is a letter : true
+Check if the character ch1='u' is a digit : false
+Check if the character ch2='4' is a letter : false
+Check if the character ch2='4' is a digit : true
+
+12) isWhitespace() for Character Class :
+Check if the character ch2='4' is a whitespace : false
+Check if the character ch3=' ' is a whitespace : true
+
+13) isUpperCase() and isLowerCase() for Character Class :
+Check if the character ch4='U' is an Uppercase : true
+Check if the character ch4='U' is a Lowercase : false
+Check if the character ch5='a' is an Uppercase : false
+Check if the character ch5='a' is a Lowercase : true
+
+14) toUpperCase() and toLowerCase() for Character Class :
+Convert character ch4='U' to Lowercase : u
+Convert character ch5='a' to Uppercase : A
+
+15) Using Escape Sequences in Strings :
+I have writen this "Hello World" using Escape Sequence
+I have writen this \Hello World\ using Escape Sequence
+I have writen this       Hello World using Escape Sequence 
+
+
+*****************************************
+*****************************************
+
+MONITORING OF HEAP MEMORY :
+
+Heap Memory currently available for use (in Bytes) : 134217728 Bytes
+Heap Memory currently available for use (in MB) : 128 MB
+Max Heap Memory that can be used : 2024 MB
+Free Memory Avaliable in Heap that can be used : 126 MB
+Memory being used : 1 MB
+
+
+*****************************************
+*****************************************
+
+USING CONSTRUCTOR CHAINING :
+
+House with parameters : 1-10-100
+
+
+*****************************************
+*****************************************
+
+METHOD OVERLOADING :
+
+Adding 2 integers :
+475
+Adding 2 doubles : 
+5.6171
+Adding 3 integers :
+9943
+
+
+*****************************************
+*****************************************
+
+STRING COMPARISON using 2 methods: 
+
+true
+String Comparison s1 and s2 using 'equals' method: true
+false
+String Comparison s2 and s3 using 'equals' method: true
+false
+String Comparison s3 and s4 using 'equals' method: true
+false
+String Comparison s4 and s5 using 'equals' method: false
+
+INTERN METHOD in String: 
+Before using Intern Method: 
+false
+String Comparison s6 and s2 using 'equals' method: true
+
+After using Intern Method: 
+true
+String Comparison s6 and s2 using 'equals' method: true
+
+
+*****************************************
+*****************************************
+
+STRING METHODS: 
+
+1) Length of the String 'Roger Federer' is: 13
+2) Concatenating String: Roger Federer is GOAT
+3) Character at Index 4 in 'Roger Federer': r
+4) Character at Last Index of 'Roger Federer': r
+5) Substring using first 5 character:  Federer
+6) Substring between index 3 to index 9: er Fed
+7) Replacing character 'e' with 'u': Rogur Fudurur
+8) Replacing substring 'ur' with 'er': Roger Federer
+9) Removing unnecessary white spaces from ' is GOAT': 'is GOAT'
+
+
+*****************************************
+*****************************************
+
+RUNTIME OF STRINGBUFFER VS STRINGBUILDER: 
+
+RUNTIME FOR StringBuffer :
+Duration for StringBuffer in Milliseconds: 1010
+
+RUNTIME FOR StringBuilder : 
+Duration for StringBuilder in Milliseconds: 873
+
+STRINGBUILDER METHODS: 
+
+1) append() method: 
+Jaipur City, 2021, Rajasthan, India
+
+2) insert() method: 
+Jaipur City, 2021, Rajasthan, India
+This is my Hometown: Jaipur City, 2021, Rajasthan, India
+This is my Hometown: Jaipur Pink City, 2021, Rajasthan, India
+
+3) delete() method: 
+This is my Hometown: Jaipur Pink City, 2021, Rajasthan, India
+This is my Hometown: Jaipur Pink, 2021, Rajasthan, India
+
+4) reverse() method: 
+This is my Hometown: Jaipur Pink, 2021, Rajasthan, India
+aidnI ,nahtsajaR ,1202 ,kniP rupiaJ :nwotemoH ym si sihT
+
+5) Converting StringBuilder to a String using toString() method: 
+StringBuilder Converted to String: aidnI ,nahtsajaR ,1202 ,kniP rupiaJ :nwotemoH ym si sihT
+
+
+*****************************************
+*****************************************
+
+ACCESSING VALUES IN ENUM:
+
+Friday: FRIDAY
+Assigning ENUM value to variable 'monday': MONDAY
+
+Values present in the enum 'Day':
+MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY 
+
+Values present in the enum 'Season':
+SUMMER AUTUMN MONSOON WINTER
+
+Accessing Enum Constants from Switch Case:
+This is the Autumn Season
+
+*****************************************
+*****************************************
+
+USING OLD LIBRARIES FOR DATE AND TIME:
+
+Date: Sun Jul 04 23:52:53 IST 2021
+Date converted to String: Sun Jul 04 23:52:53 IST 2021
+Formatted Date: Sun 2021.07.04 at 11:52:53 PM IST
+Manually Setting Random Date using Calendar: Thu Jan 01 23:52:53 IST 2015
+Adding 2 Days to Date 2nd October 2019: Fri Oct 04 23:52:53 IST 2019
+Comparing Dates: 1
+Check if Date comes before date2: false
+Name of the Default TimeZone: India Standard Time
+
+*****************************************
+*****************************************
+
+USING NEW LIBRARIES FOR DATE AND TIME:
+
+Current Date: 2021-07-04
+Current Time: 23:52:54.014459
+Current Date and Time: 2021-07-04T23:52:54.016456800
+
+
+Creating Date and Time : 
+ Date A : 2020-03-15   Date B : 2020-03-15   Time Created: 09:33:30
+Date and Time Created: 2020-03-15T09:33:30
+
+
+Formatting Date and Time : 
+Short Date: 3/15/20
+Short Time: 9:33 AM
+Short Date Time: 3/15/20, 9:33 AM
+
+
+Updating Date and Time :
+Date Created : 2021-07-15
+Date After adding 10 Days : 2021-07-25
+Date After Updating year from 2021 to 2020: 2020-07-25
+
+
+Method Chaining in Dates:
+Before: 2020-03-15T09:33:30
+After: 2020-03-13T21:33:30
+
+*****************************************
+*****************************************
+
+CONDITIONAL STATEMENTS:
+
+Nested If Statement: Finding the Largest Number among 3 numbers
+Greatest among 1, 2, 3: 3
+
+Nested For Loops:
+Outer loop for c index: 0
+c value: 0 k value 0
+c value: 0 k value 1
+c value: 0 k value 2
+c value: 0 k value 3
+c value: 0 k value 4
+Outer loop for c index: 1
+c value: 1 k value 0
+c value: 1 k value 1
+c value: 1 k value 2
+c value: 1 k value 3
+c value: 1 k value 4
+Outer loop for c index: 2
+c value: 2 k value 0
+c value: 2 k value 1
+c value: 2 k value 2
+c value: 2 k value 3
+c value: 2 k value 4
+Outer loop for c index: 3
+c value: 3 k value 0
+c value: 3 k value 1
+c value: 3 k value 2
+c value: 3 k value 3
+c value: 3 k value 4
+Outer loop for c index: 4
+c value: 4 k value 0
+c value: 4 k value 1
+c value: 4 k value 2
+c value: 4 k value 3
+c value: 4 k value 4
+Outer loop for c index: 5
+c value: 5 k value 0
+c value: 5 k value 1
+c value: 5 k value 2
+c value: 5 k value 3
+c value: 5 k value 4
+Outer loop for c index: 6
+c value: 6 k value 0
+c value: 6 k value 1
+c value: 6 k value 2
+c value: 6 k value 3
+c value: 6 k value 4
+Outer loop for c index: 7
+c value: 7 k value 0
+c value: 7 k value 1
+c value: 7 k value 2
+c value: 7 k value 3
+c value: 7 k value 4
+Outer loop for c index: 8
+c value: 8 k value 0
+c value: 8 k value 1
+c value: 8 k value 2
+c value: 8 k value 3
+c value: 8 k value 4
+Outer loop for c index: 9
+c value: 9 k value 0
+c value: 9 k value 1
+c value: 9 k value 2
+c value: 9 k value 3
+c value: 9 k value 4
+
+Printing Matrix:
+0 0 0
+0 1 2
+0 2 4 
+
+*****************************************
+*****************************************
+
+ARRAYS: 
+
+Integer Array: [50, 402, 44, 8829, 91]
+Length of the Array: 5
+Perform Binary Search to search an item in the Integer Array: Index of the element 44 searched: 2
+Comparing arr and arr3: false
+Comparing arr and arr4: true
+Modified Integer Array by User Defined Function: [500, 4020, 440, 88290, 910]
+Sorted Integer Array: [440, 500, 910, 4020, 88290]
+Copy first 3 elements of arr in another array: [440, 500, 910]
+Fill all elements of Integer Array with 10: [10, 10, 10, 10, 10]
+
+
+String Array: [Aman, Akbar, Anthony, Zelda, Narnia]
+Perform Binary Search to search an item in the String Array: Index of the element 'Anthony' searched: 2
+Sorted String Array: [Akbar, Aman, Anthony, Narnia, Zelda]
+Fill all elements of String Array with 'Prince': [Prince, Prince, Prince, Prince, Prince]
+
+Creating 2D Array using for loop :
+0 1 2 3
+1 2 3 4
+2 3 4 5
+
+After changing item of the 2D array :
+0 1 2 3 
+1 2 3 4 
+2 3 50 5
+
+Creating 2D Array without for loop :
+1 2 3 
+4 5 6
+7 8 9
+
+Creating Jagged Array:
+1 2 3 4
+5 6
+7 8 9
+
+*****************************************
+*****************************************
+
+UISNG VARAGS ARGUMENTS IN FUNCTION: 
+
+Implementing Function which uses Varargs Arguments:
+Sum of the Variable number of arguments entered is: 407
+
+*****************************************
+*****************************************
+
+ARRAY LISTS:
+
+ArrayList Created: [Naruto, Bleach, DBZ, DBS, Goku, Gohan]
+ArrayList After Removal of items by name: [Bleach, DBZ, DBS, Goku]
+ArrayList After Removal of items by index: [Bleach, DBS, Goku]
+ArrayList After Adding items at specified index 2: [Bleach, DBS, Beyblade, Goku]
+ArrayList After Updating items at specified index 2: [Bleach, DBS, Prince of Tennis, Goku]
+Size of the ArrayList: 4
+Check if ArrayList is Empty: false
+Check if lst and lst2 are equal: false
+Check if lst and lst3 are equal: true
+Sorted Array List: [Bleach, DBS, Goku, Prince of Tennis]
+
+*****************************************
+*****************************************
+
+GENERICS:
+
+Accessing the String stored in arraylist with specified generics: Leander
+
+Accessing the Generic method printArray using String array arguments:
+Federer Nadal Djokovic Tsitsipas Zverev 
+
+Accessing the Generic method printArray using Integer array arguments:
+20 20 19 0 0 
+
+Accessing the Generic method printArray2 using both Integer array and String Array arguments:
+Federer Nadal Djokovic Tsitsipas Zverev 20 20 19 0 0
+
+Creating an object of the generic class 'Box' :
+Accessing the Integer class object using getElement generic method: 100
+Accessing the String class object using getElement generic method: One Hundred
+
+
+-> Using Upper Bounded Wildcard Generic: 
+1) For Double subclass datatype:
+3.17 944.2333 99.111
+
+2) For Integer subclass datatype: 
+1 2 3 
+
+-> Using Lower Bounded Wildcard Generic:
+1) For Number superclass datatype: 
+[60, 90, 10, 20]
+
+2) For Object superclass datatype:
+[Ground, 100, 10, 20]
+
+3) For same Integer class datatype:
+[60, 90, 10, 20]
+
+-> Using UnBounded Wildcard Generic: 
+1) For String class datatype: 
+Jaby Achara 
+
+*****************************************
+*****************************************
+
+ARRAY LISTS AND LINKED LISTS : 
+
+Iterating through ArrayList Elements using Iterator : Kakashi Jiraiya Sunade
+Iterating through LinkedList Elements using for Loop : Harry Hermoine Ron 
+
+*****************************************
+*****************************************
+
+QUEUE, DEQUEUE AND PRIORITY QUEUE :
+
+
+1) QUEUE & PRIORITY QUEUE: 
+
+Elements added in the Queue : Ramesh-15 Suresh-20 Mahesh-25 
+Size of the Queue : 3
+Check if the Queue is Empty : false
+Top Element of Queue (not removed) : Ramesh-15
+Size of the Queue : 3
+Top Element of Queue (removed) : Ramesh-15
+Size of the Queue after removal of top element : 2
+Elements added in the Queue after Removal : Suresh-20 Mahesh-25
+
+
+2) DEQUEUE: 
+
+Elements added in the Dequeue: 100 200 300
+Elements added to the Beginning in the Dequeue: -3 -2 1 100 200 300
+Elements added to the End in the Dequeue: -3 -2 1 100 200 300 12 -20 -300
+Elements removed from end and beginning in the Dequeue: -2 1 100 200 300 12 -20
+
+*****************************************
+*****************************************
+
+HASHSET, LINKED HASHSET, TREE SET :
+
+1) HASHSET :
+Elements added in the HashSet: 20 40 10 30
+Check if the Set contains element 100: false
+Check if the Set contains element 10: true
+Set after removal of element 10: 20 40 10 30
+
+2) LINKED HASH SET : 
+Elements added in the LinkedHashSet: 10 20 30 40
+
+3) TREE SET : 
+Elements added in the Tree Set: -29 1 100 40000
+
+*****************************************
+*****************************************
+
+HASHMAP, LINKED HASHMAP, TREE MAP :
+
+1) HASHMAP :
+Elements added in the HashMap: 1-Djokovic  4-Tsitsipas  53-Nishkori  7-Rublev  8-Federer  26-Evans
+
+2) LINKED HASHMAP : 
+Elements of Linked Hash Map: 1-Djokovic  8-Federer  7-Rublev  4-Tsitsipas  53-Nishkori  26-Evans
+
+3) TREE HASHMAP :
+HashMap converted to Tree Map: 1-Djokovic  4-Tsitsipas  7-Rublev  8-Federer  26-Evans  53-Nishkori  
+
+*****************************************
+*****************************************
+
+1) LOCAL INNER CLASS :
+Accessing the Local Inner Class created inside the method of Outer Class: Message Instance Variable of Outer Class....
+
+2) MEMBER INNER CLASS :
+Accessing the Member Inner Class created inside Outer Class but outside method: This is a Message Instance Variable of Outer Class....
+
+3) STATIC NESTED CLASS :
+Accessing the Static Nested Class created inside the Outer Class with static keyword : This is the 3rd Outside Class Message instance....
+
+4) ANONYMOUS INNER CLASS :
+Accessing the Anonymous Inner Class created inside the Abstract Class by overriding : Message Overriden for the Abstract Class....
+
+
+*****************************************
+*****************************************
+
+EXCEPTION HANDLING
+
+MULTIPLE EXCEPTION HANDLING:
+Enter a Number: 
+100 
+0
+
+NESTED EXCEPTION HANDLING:
+Array Index Out of Bound Exception Found: java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 5
+
+
+*****************************************
+*****************************************
+
+INHERITANCE:
+
+Accessing Parent Method using Child Class : This is method of Parent Class.
+Accessing the Child Class Method : Method is in Child Class...
+
+Accessing Child, Parent and GrandChild Methods using GrandChild Class : 
+
+Method is in Child Class...
+This is method of Parent Class.
+This is the GrandChild Method...
+
+
+*****************************************
+*****************************************
+
+SERIALIZATION :
+
+Car Object Serialized Successfully....
+
+DE-SERIALIZATION :
+
+Deserialized Car Object : Ferari-1126590-Red
+Car Object De-Serialized Successfully....
+
+
+*****************************************
+*****************************************
+
+LAMBDA EXPRESSIONS :
+
+Addition using Sum Interface(without Lambda Expression) : 30
+Addition using Sum Interface(using Lambda Expression) : 30
+
+This is Lambda Expression for sayHello method of Greetings Interface
+This is Lambda Expression for sayHello2 method of Greetings2 Interface : This is the Message
+Chaining of Lambda Expressions to perform multiple operations : 40
+Using forEach() function with Lambda expressions in case of Collections : Itachi Vegeta Orochimaru Yuno Light    
+
+*****************************************
+*****************************************
+
+FUNCTIONAL INTERFACE :
+
+Addition using Lambda Function for Functional Interface FI : 50
+
+
+*****************************************
+*****************************************
+
+METHOD REFERENCES :
+
+Accessing the staticGreetings() static method using method reference with functional interface : This is a Static Greeting Method.....
+Accessing the instanceGreetings() instance method using method reference with functional interface : This is an Instance Greeting Method.....
+Accessing the compareToIgnoreCase() method of String class using method reference to sort : [Agassi, Djokovic, Federer, Murray, Nadal, Sampras]
+Accessing the constructor of MessageClass using method reference with functional interface : This is Message using constructor....
+Using forEach() function with Method References in case of Collections : ItachiVegetaOrochimaruYunoLight
+
+*****************************************
+*****************************************
+
+OPTIONALS :
+
+Empty Optional Created for Person object : Optional.empty
+Optional with Person object stored : Optional[Roger Federer]
+Peron Object stored in Optional : Roger Federer
+Name of the Person object stored in Optional : Roger Federer
+The object stored in Optional 'person' is not Null with value : Roger Federer
+The object stored in Optional 'person2' is Null (using ofNullable())
+Replacing the object value if the object stored in Optional is Null : The null object is now replaced
+
+MAPPING USING OPTIONALS :
+
+Stamp of Country (using Map and FlatMap with Optionals) : Switzerland
+Stamp of Country (if Null) : Unknown
+
+
+*****************************************
+*****************************************
+
+STREAMS :
+
+Players Filtered and Collected using stream() from the list : Ronaldo Ronaldinho 
+Stream Created after filtering : java.util.stream.ReferencePipeline$2@4cc77c2e
+Stream Items : Ronaldo Ronaldinho
+Number of Items present in the Stream starting with 'F' : 2
+Stream of Numbers from 1 to 10 : 1 2 3 4 5 6 7 8 9 10
+Stream of 5 Random Numbers generated : 0.527660924499614 0.7506410029339953 0.8043257373389622 0.25407911308304276 0.44886190090559563 
+Concatenation of Array of String using Streams : Football-Basketball-Volleyball-Tennis-Cricket
+ArrayList Items converted to UpperCase using Stream : WASHINGTON CLINTON TRUMP OBAMA LINCOLN
+List of List converted to Stream : Sachin Dravid Dhoni Dhawan Yuvraj Kohli Ishant Harbhajan Zaheer Jadeja Chahal 
+
+Filtered Values from the Map using Stream : {Nadal=20, Djokovic=19}
+
+SEQUENTIAL VS PARALLEL STREAMS : 
+
+1) Sequential
+Counted : 500001 in Duration : 58 ms
+
+2) Parallel
+Counted : 500001 in Duration : 60 ms
+
+
+*****************************************
+*****************************************
+
+THREADING :
+
+Thread Number 16 is running....
+Thread Number 17 is running....
+Thread Number 18 is running....
+Thread Number 20 is running....
+Thread Number 21 is running....
+Thread Number 19 is running....
+Thread Number 22 is running....
